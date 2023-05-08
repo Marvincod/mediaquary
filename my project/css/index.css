@@ -1,0 +1,140 @@
+#body{margin: 0%;
+}
+#main{height: 300vh;
+    width: 100%;
+    border: 1px solid black;
+    
+}
+.first{height: 9vh;
+    width: 100%;
+    background-color: midnightblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.bars{  
+    display: none;
+}
+.log{display: flex;
+}
+#car{
+    margin-left: 10px;
+    color: orange;
+}
+#tex{
+    margin-top: -19px;
+}
+.pik{display: flex;
+
+}
+.get{background-color: orange;
+    color: white;
+    height: 7vh;
+    margin-top: 10px;
+}
+
+.lis{
+    list-style: none;
+    display: flex;
+}
+.lis li{padding: 15px 15px 15px 15px;
+}
+.back{height: 90vh;
+    width: 100%;
+background-image: url(../image/project.png);
+background-repeat: no-repeat;
+background-size: cover;
+border: 1px solid rgba(0, 0, 0, 0);
+}
+#logic{
+    color: orange
+}
+#fon{font-size: 100px;
+}
+#tra{
+    display: flex;
+}
+#trace{height: 7vh;
+color: white;
+background-color: orange;
+}
+.track {width: 500px;
+    height: 6vh;
+}
+.drop{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    #main{height: 300vh;
+        width: 100%;
+        border: 1px solid black;
+}
+.first{height: 9vh;
+    width: 85%;
+    background-color: midnightblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.lis{
+    list-style: none;
+    display: none;
+}
+.lis li{padding: 15px 15px 15px 15px;
+}
+.get{
+    display: none;
+}
+.gets{background-color: orange;
+    color: white;
+    height: 7vh;
+    margin-left: 10px;}
+.back{height: 90vh;
+    width: 85%;
+background-image: url(../image/project.png);
+background-repeat: no-repeat;
+background-size: cover;
+border: 1px solid rgba(0, 0, 0, 0);
+}
+.bars{ 
+    display: block;
+    margin-right: 70px;
+    margin-top: 3px;
+}
+.drop{
+    display: none;
+}
+.dropdown{height: 30vh;
+    width: 110px;
+    background-color: white;
+  margin-right: 70px;
+  top: 7vh;
+  position: absolute;
+}
+.bars:hover .drop{display: block;
+    transition: 0.3s;
+}
+#home{margin-top: 2px;
+margin-left: 15px;
+color: black;
+}
+.about{margin-top: 2px;
+    margin-left: 15px;
+    color: black;
+}
+#fon{
+    font-size: 50px;
+}
+#tra{
+    display: flex;
+    display: block;
+}
+#trace{height: 7vh;
+color: white;
+background-color: orange;
+}
+.track {width: 200px;
+    height: 6vh;
+}
+}
